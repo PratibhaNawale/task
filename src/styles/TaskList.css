@@ -1,0 +1,208 @@
+.no-tasks {
+    height: 60vh;
+    text-align: center;
+}
+
+.no-data-image {
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+}
+
+
+.font18 {
+    font-size: 18px !important;
+}
+
+.task-btn {
+    background-color: #530e93db !important;
+    color: white !important;
+    font-size: 18px;
+    border: none;
+}
+
+.no-btn {
+    background-color: transparent !important;
+    color: black !important;
+    border: 1px solid gray !important;
+}
+
+.dialog-width {
+    width: 50% !important;
+}
+
+.search-task .MuiInputBase-root {
+    height: 45px !important;
+}
+
+.create-task-dialog .container {
+    background-color: var(--secondary-color);
+    color: var(--font-color);
+    padding: 2rem;
+}
+
+.labels {
+    color: var(--heading-color) !important;
+    font-size: 14px !important;
+}
+
+.inputs {
+    color: var(--heading-color) !important;
+    border: 1px solid var(--heading-color) !important;
+    font-size: 14px !important;
+    border-radius: 5px !important;
+
+}
+
+.create-task-dialog .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.create-task-dialog .input-field {
+    margin-top: 1rem;
+}
+
+.create-task-dialog .btn-save {
+    margin-top: 1.5rem;
+}
+
+.create-task-dialog .MuiFormHelperText-root {
+    color: red;
+}
+
+.create-task-dialog svg {
+    cursor: pointer;
+}
+
+.create-task-dialog .input-field-input {
+    width: 100%;
+}
+
+.task-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.font14 {
+    font-size: 14px !important;
+}
+
+.fontw700 {
+    font-weight: 700 !important;
+}
+
+.scroll-container {
+    max-height: 60vh;
+    overflow-y: auto;
+    padding-right: 10px;
+    scrollbar-width: none;
+    scrollbar-color: #ccc transparent;
+}
+
+.navbar-bg {
+    background-image: url('../../src/assets/bg.jpg') !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 78px;
+}
+
+.filter-option {
+    cursor: pointer;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.filter-option:hover {
+    color: #01b2ff;
+}
+
+.active-filter {
+    color: #01b2ff !important;
+    font-weight: bold;
+}
+
+.footer-css {
+    background-image: url('../../src/assets/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 78px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.validation {
+    font-size: 12px !important;
+    color: red;
+    margin-top: 3px !important;
+}
+
+.set-width .MuiDialog-paper {
+    width: 40% !important;
+    max-width: none !important;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+    margin-top: 24px;
+}
+
+.category-dropdown {
+    background-color: white;
+    width: 164px;
+}
+
+.checkbox-sub-task {
+    position: relative;
+    bottom: 6px;
+    margin-left: 5px !important;
+}
+
+.set-drop-width {
+    width: 20vh;
+}
+
+.login-bg {
+    background-image: url('../assets/login-bg.avif');
+    background-size: cover;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 24px;
+    /* Adjust as needed */
+}
+
+.form-box {
+    width: 100%;
+    max-width: 400px;
+}
+
+.textfield-input {
+    color: var(--heading-color) !important;
+}
